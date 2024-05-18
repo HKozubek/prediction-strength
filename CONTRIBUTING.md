@@ -1,6 +1,6 @@
 # Contributing to PredictionStrength
 
-First of all, thank you for your interest in contributing to PredStr! Your contributions will help improve this package and make it more useful for the community. This document outlines the process and guidelines for contributing to the PredStr project.
+First of all, thank you for your interest in contributing to prediction-strength! Your contributions will help improve this package and make it more useful for the community. This document outlines the process and guidelines for contributing to the prediction-strength project.
 
 ## Code of Conduct
 
@@ -9,11 +9,11 @@ Please make sure to read and follow our [Code of Conduct](CODE_OF_CONDUCT.md) to
 ## Getting Started
 
 1. Fork the repository on GitHub.
-2. Clone your fork to your local machine: `git clone https://github.com/<your-username>/predstr.git`
-3. Change into the project directory: `cd predstr`
+2. Clone your fork to your local machine: `git clone https://github.com/<your-username>/prediction-strength.git`
+3. Change into the project directory: `cd prediction-strength`
 4. Set up a virtual environment for the project: `python3 -m venv venv`
 5. Activate the virtual environment: `source venv/bin/activate` (for Linux/MacOS) or `venv\Scripts\activate` (for Windows)
-6. Install the project's development dependencies: `pip install -r requirements-dev.txt`
+6. Install the project's development dependencies: `pip install -r requirements.txt`
 7. Create a new branch for your changes: `git checkout -b <branch-name>`
 
 ## Submitting Changes
@@ -24,7 +24,7 @@ Please make sure to read and follow our [Code of Conduct](CODE_OF_CONDUCT.md) to
 4. Run the test suite to verify that your changes do not introduce new issues: `pytest`
 5. Update the documentation if your changes affect the public API or usage of the package.
 6. Push your changes to your fork: `git push origin <branch-name>`
-7. Create a pull request (PR) on GitHub, targeting the `main` branch of the original PredStr repository.
+7. Create a pull request (PR) on GitHub, targeting the `main` branch of the original prediction-strength repository.
 
 ## Pull Request Guidelines
 
@@ -36,7 +36,7 @@ Please make sure to read and follow our [Code of Conduct](CODE_OF_CONDUCT.md) to
 
 ## Reporting Issues
 
-If you encounter any issues, bugs, or have feature suggestions, please open an issue on the [GitHub Issues](https://github.com/your-username/predstr/issues) page. When submitting an issue, please provide a clear and concise description of the problem, along with any relevant information to reproduce it (e.g., code snippets, data samples, or error messages).
+If you encounter any issues, bugs, or have feature suggestions, please open an issue on the [GitHub Issues](https://github.com/your-username/prediction-strength/issues) page. When submitting an issue, please provide a clear and concise description of the problem, along with any relevant information to reproduce it (e.g., code snippets, data samples, or error messages).
 
 ## Additional Resources
 
@@ -44,4 +44,4 @@ If you encounter any issues, bugs, or have feature suggestions, please open an i
 - [GitHub documentation on Creating a pull request from a fork](https://help.github.com/articles/creating-a-pull-request-from-a-fork/)
 - [Python Packaging User Guide](https://packaging.python.org/)
 
-Thank you once again for your interest in contributing to PredStr, and we look forward to working with you!
+Thank you once again for your interest in contributing to prediction-strength, and we look forward to working with you!
